@@ -134,6 +134,6 @@ api.register_blueprint(StoreBlueprint)
 
         
 
-@app.get("/item")
-def get_all_items():
-    return {"items": list(items.values())}
+# @app.get("/item")
+# def get_all_items():
+#     return {"items": list(items.values())}
