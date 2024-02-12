@@ -4,7 +4,7 @@ from flask.views import MethodView
 from flask_smorest import Blueprint, abort
 from db import items
 
-blp = Blueprint("items", __name__, description="Operations with items")
+blp = Blueprint("Items", __name__, description="Operations with items")
 
 @blp.route("/item/<string:item_id>")
 class Item(MethodView):
